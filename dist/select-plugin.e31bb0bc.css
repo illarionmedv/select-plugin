@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.app {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap {
+  width: 500px;
+}
+
+.select {
+  width: 100%;
+  position: relative;
+}
+.select__input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+.select__dropdown {
+  position: absolute;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=/select-plugin.e31bb0bc.css.map */
